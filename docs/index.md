@@ -19,26 +19,13 @@ Bienvenue dans la documentation du projet 05 Gestion des filaments impression 3D
 
 
 ## À propos du Projet
-
-Décrivez ici en quelques lignes l'objectif et l'aperçu général de votre projet. Quel est son but ? À qui est-il destiné ? Quels problèmes cherche-t-il à résoudre ?
-
-
-## Poster
-
-Ici vous publierez le poster de votre projet.
-
-![Poster projet](images/poster.jpg)
+Au sein de l'usine école 4.0 d'UniLaSalle, nous disposons d'imprimantes 3D qui consomment une quantité importante de filament. Actuellement, ces machines sont installées à l'intérieur d'armoires de stockage, ce qui engendre une absence totale de visibilité technique et d'ergonomie matérielle.
+En effet, aucune solution ne permet de connaître en temps réel la quantité de filament restante. Parallèlement, le mode de rangement actuel dans les armoires manque de structures adaptées, transformant chaque changement de bobine en une manipulation complexe et désorganisée.
+Pour répondre à ces problématiques, notre projet consiste à installer un support de stockage optimisé pouvant accueillir 14 bobines. Grâce à l'intégration d'une HMI , nous permettrons à l'utilisateur de connaître avec précision, sous forme de pourcentage, le moment où une action de maintenance est nécessaire, incluant le changement de la bobine .
 
 ## Vidéo
 
-Ici vous publierez la vidéo de votre projet. 
-- 1min30 au format vertical
-- Présentation du projet 
-- Des explication du fonctionnement du projet
-- Des vues du projet / Prototype / Application etc... 
-- Des plans du fonctionnement (même basique ou des éléments séparés)
-- Une conclusion
-- Si en stockage local : <50mo
+
 
 <video src="images/intro_amiens.mp4" controls title="Title"  style="width: 100%;"></video>
 
