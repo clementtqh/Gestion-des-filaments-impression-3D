@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2. Conception et Codage
+title: "Étape 2 : "
 parent: Etapes de fabrication
 nav_order: 2
 ---
