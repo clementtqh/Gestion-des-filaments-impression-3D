@@ -45,7 +45,7 @@ Pour répondre au défi physique de l'armoire, où l'encombrement et la recherch
 1. Sélectionner : Tri et élimination des éléments inutiles présents dans l'armoire.
 2. Situer : Alignement standardisé et clair du support pour accueillir les 14 bobines.
 3. Scintiller : Nettoyage de la zone technique pour éliminer les poussières nuisibles aux imprimantes.
-4. Standardiser / Suivre : Mise en place des alertes automatiques via l'IHM pour fiabiliser le flux de travail des opérateurs.
+4. Standardiser / Suivre : Mise en place des alertes automatiques via l'IHM pour fiabiliser le flux de travail des professeurs et etudiants.
 
 ![Chantier 5S Avant Après](images/avant_apres_5s.png){: style="width: 100%; border: 1px solid #dee2e6; border-radius: 6px;"}
 *État de l'armoire de stockage avant et après notre intervention.*
