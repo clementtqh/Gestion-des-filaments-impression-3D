@@ -43,6 +43,4 @@ Pour valider cette première étape, nous avons défini les spécifications tech
 - **Machines du Makerspace** : Infrastructures d'Amiens utilisées pour fabriquer et adapter les pièces physiques du support au sein de l'armoire.
 - **Automate Siemens S7-1500** : Unité centrale de traitement de laboratoire servant de support pour valider le traitement du signal et les tables de variables.
 
----
 
-Une fois cette étape de spécification terminée, passez à la conception technique : [Étape 2 : Conception et Prototypage](etude-choix-techniques.md).
