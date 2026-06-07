@@ -6,20 +6,21 @@ title: Objectifs du projet
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+Dans le cadre de l'**Usine École 4.0 d'UniLaSalle Amiens**, ce projet s'inscrit dans une démarche de modernisation, d'optimisation logistique et de digitalisation des processus de fabrication additive (impression 3D). Notre groupe s'est penché sur une problématique concrète de gestion du matériel afin d'apporter une solution industrielle clé en main.
+
+L'identité visuelle de notre documentation et de nos interfaces respecte scrupuleusement la charte graphique de l'école : **Rouge, Blanc, Noir**.
+
+---
 
 ## Contexte du Projet
 
-Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+L'usine école dispose d'un parc d'imprimantes 3D intégrées dans des armoires de stockage fermées. Bien que ce système protège les machines, il engendre deux problématiques majeures au quotidien :
 
-## Objectifs du Projet
+* **Manque d'ergonomie matérielle :** Le rangement actuel des bobines de filament manque de structures adaptées. Chaque changement de matière se transforme en une manipulation complexe et désorganisée.
+* **Absence de visibilité technique :** Il est impossible de connaître en temps réel la quantité de filament restante sur une bobine fermée dans l'armoire. Cela entraîne des arrêts de production imprévus si le fil vient à manquer en cours d'impression.
 
-Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.
+---
 
-# Existant
+## Cadre du Projet & Objectifs
 
-Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
-
-# Cahier des Charges
-
-Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus.
+Notre projet pluridisciplinaire se déploie à l'intersection de quatre grands domaines de notre formation :
