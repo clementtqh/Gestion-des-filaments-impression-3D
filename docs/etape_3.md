@@ -10,7 +10,7 @@ Cette dernière section détaille la phase de validation de notre système, la c
 
 ---
 
-## 🖥️ Partie 1 : Interface Homme-Machine (IHM) sur TIA Portal V20
+## Partie 1 : Interface Homme-Machine (IHM) sur TIA Portal V20
 
 L'aboutissement visuel de notre logique d'automatisation se situe sur l'écran de l'IHM, conçu pour les élèves et professeurs de la mini usine de l'école.
 
@@ -22,7 +22,7 @@ L'aboutissement visuel de notre logique d'automatisation se situe sur l'écran d
 
 ---
 
-## 🧪 Partie 2 : Protocoles de Tests par Simulation
+## Partie 2 : Protocoles de Tests par Simulation
 
 Pour contourner la problématique réseau terrain et valider la totalité de notre algorithme et de notre interface, nous avons mis en place des **tables de forçage de variables** sur TIA Portal V20.
 
@@ -31,7 +31,7 @@ Pour contourner la problématique réseau terrain et valider la totalité de not
 
 ---
 
-## 📊 Partie 3 : Bilan d'Avancement (85% Réalisé) et Perspectives
+## Partie 3 : Bilan d'Avancement (85% Réalisé) et Perspectives
 
 À l'échéance du projet, nous dressons un bilan technique honnête et rigoureux de notre système de suivi de filaments :
 
@@ -45,7 +45,7 @@ Le projet est globalement **finalisé à 85%**. Notre seule et unique difficult�
 
 Le code interne de l'automate est prêt, mais nous avons fait face à des restrictions de communication réseau et d'autorisation de protocole S7 à travers les points d'accès Wi-Fi de l'atelier, ce qui empêche la réception des données en temps réel sur le matériel physique.
 
-### ⏳ Perspectives :
+### Perspectives :
 Le bug réseau ayant été précisément identifié et isolé, **il ne nous manque plus que cette configuration Wi-Fi pour finaliser le projet à 100%**. Toutes les autres briques technologiques se synchronisent déjà parfaitement. Avec seulement quelques heures de développement et de tests réseau supplémentaires avec les routeurs de l'atelier, la communication matérielle aurait été établie, rendant le système totalement déployable en production.
 
 ---
