@@ -10,7 +10,7 @@ Cette section décrit la première étape de notre processus de fabrication : la
 
 ---
 
-## 💡 Brainstorming et Genèse de l'Idée
+## Brainstorming et Genèse de l'Idée
 
 L'objectif initial était de résoudre un problème récurrent dans l'atelier d'impression 3D : la panne de matière première en cours d'impression, qui génère des interruptions de flux et ralentit la production de l'usine école de près de 15%. Notre équipe a conçu une solution permettant de mesurer et d’afficher en temps réel le pourcentage de filament restant directement sur une Interface Homme-Machine (IHM) industrielle.
 
@@ -21,7 +21,7 @@ L'objectif initial était de résoudre un problème récurrent dans l'atelier d'
 
 ---
 
-## 📋 Cahier des Charges Fonctionnel
+## Cahier des Charges Fonctionnel
 
 Pour valider cette première étape, nous avons défini les spécifications techniques suivantes :
 
@@ -34,7 +34,7 @@ Pour valider cette première étape, nous avons défini les spécifications tech
 
 ---
 
-## 🛠️ Outils et Environnement Identifiés
+## Outils et Environnement Identifiés
 
 À la fin de cette première phase, nous avons listé les outils matériels et logiciels nécessaires pour le déploiement du projet :
 - **Matériel Électronique** : Capteur optique ToF et microcontrôleur Arduino pour l'acquisition de données.
