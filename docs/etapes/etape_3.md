@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3. Phase de Tests et Réglages
+title: "3. Étape 3 :"
 parent: Etapes de fabrication
 nav_order: 3
 ---
