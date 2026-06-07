@@ -50,6 +50,3 @@ Le bug réseau ayant été précisément identifié et isolé, **il ne nous manq
 
 ---
 
-## 📹 Partie 4 : Livrables et Démo Vidéo
-
-Pour clore ce projet, nous avons réalisé une vidéo de démonstration . Elle retrace notre démarche d'ingénieurs : de la présentation de nos pièces sur Onshape à la démonstration des algorithmes Arduino et TIA Portal V20, en passant par la simulation logicielle des alertes de niveau directement sur l'écran de l'IHM.
