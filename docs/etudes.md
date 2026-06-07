@@ -12,7 +12,7 @@ Cette section détaille les analyses, les choix technologiques et les justificat
 
 ## 1. Choix du Système de Mesure : Capteur de Distance ToF
 
-Pour connaître la quantité de filament restant sans perturber le dévidage mécanique, nous avons opté pour une mesure de distance plutôt qu'un pesage direct. Notre choix s'est porté sur un capteur de distance optique ToF (Time-of-Flight) fonctionnant par l'émission d'un signal lumineux infrarouge qui se réfléchit sur la bobine de filament. Le système calcule le temps aller-retour du signal pour en déduire la distance exacte en millimètres ($mm$) séparant le capteur du filament.
+Pour connaître la quantité de filament restant sans perturber le dévidage mécanique, nous avons opté pour une mesure de distance plutôt qu'un pesage direct. Notre choix s'est porté sur un capteur de distance optique ToF (Time-of-Flight) fonctionnant par l'émission d'un signal lumineux infrarouge qui se réfléchit sur la bobine de filament. Le système calcule le temps aller-retour du signal pour en déduire la distance exacte en millimètres (mm) séparant le capteur du filament.
 
 Cette solution offre l'avantage majeur d'éliminer tout contact physique ou frottement sur le fil pendant l'impression 3D. De plus, elle permet d'établir une loi mathématique directe pour corréler la distance mesurée au volume et au pourcentage (%) de matière disponible.
 
