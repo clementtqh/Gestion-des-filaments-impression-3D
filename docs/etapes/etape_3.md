@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "3. Étape 3 :"
+title: "3. Étape 3 : Phase de Tests, Configuration IHM et Bilan d'Avancement"
 nav_order: 7
 ---
 
