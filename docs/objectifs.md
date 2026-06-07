@@ -8,8 +8,6 @@ title: Objectifs du projet
 
 Dans le cadre de l'**Usine École 4.0 d'UniLaSalle Amiens**, ce projet s'inscrit dans une démarche de modernisation, d'optimisation logistique et de digitalisation des processus de fabrication additive (impression 3D). Notre groupe s'est penché sur une problématique concrète de gestion du matériel afin d'apporter une solution industrielle clé en main.
 
-L'identité visuelle de notre documentation et de nos interfaces respecte scrupuleusement la charte graphique de l'école : **Rouge, Blanc, Noir**.
-
 ---
 
 ## Contexte du Projet
