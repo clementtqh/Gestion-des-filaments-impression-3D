@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "3. Étape 3 :"
-parent: Etapes de fabrication
-nav_order: 3
+nav_order: 7
 ---
 
 # Étape 3 : Phase de Tests, Configuration IHM et Bilan d'Avancement
