@@ -72,7 +72,7 @@ Avant de déployer le système à grande échelle, un prototype unitaire a été
 En parallèle du montage physique, la couche logicielle industrielle a été développée pour traiter les informations de terrain.
 
 * **Rétro-ingénierie logicielle :** Prise en main de TIA Portal V20 et capitalisation sur l'existant pour moderniser le noyau logique de l'armoire.
-* **Bloc de calcul (FC) :** Création de l'algorithme mathématique interpolant la distance mesurée ($mm$) pour la traduire en une jauge de volume dynamique exprimée en pourcentage (%).
+* **Bloc de calcul (FC) :** Création de l'algorithme mathématique interpolant la distance mesurée (mm) pour la traduire en une jauge de volume dynamique exprimée en pourcentage (%).
 * **Supervision :** Création des écrans graphiques sur l'IHM Siemens, incluant le mapping complet des variables et la configuration des seuils d'alertes de maintenance.
 
 ![Aperçu écran IHM Siemens](images/ecran_ihm_final.png){: style="width: 100%; border: 1px solid #dee2e6; border-radius: 6px;"}
