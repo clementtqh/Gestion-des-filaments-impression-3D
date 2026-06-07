@@ -9,7 +9,7 @@ permalink: /
 
 Bienvenue dans la documentation du projet 05 Gestion des filaments impression 3D. Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, utiliser et reproduire efficacement notre projet.
 
-[Notre repo GitHub](https://github.com/Makerspace-Amiens/template-project){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+[Notre repo GitHub](https://github.com/clementtqh/Gestion-des-filaments-impression-3D){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -19,11 +19,11 @@ Bienvenue dans la documentation du projet 05 Gestion des filaments impression 3D
 
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 
-<model-viewer 
-  src="images/support_filaments.glb" 
-  camera-controls 
-  touch-action="pan-y" 
-  alt="Modèle 3D du support 14 bobines" 
+<model-viewer
+  src="images/support_filaments.glb"
+  camera-controls
+  touch-action="pan-y"
+  alt="Modèle 3D du support 14 bobines"
   style="width: 100%; height: 500px; background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 6px;">
 </model-viewer>
 
