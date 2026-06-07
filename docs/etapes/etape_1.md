@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1. Brainstorming & Cahier des Charges
+title: 1. Étape 1 :
 parent: Etapes de fabrication
 nav_order: 1
 ---
