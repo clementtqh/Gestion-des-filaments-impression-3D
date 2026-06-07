@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "2. Étape 2 : "
+title: "2. Étape 2 : Conception Mécanique, Programmation et Communication"
 nav_order: 6
 ---
 
