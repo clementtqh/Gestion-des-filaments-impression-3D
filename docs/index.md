@@ -15,21 +15,17 @@ Bienvenue dans la documentation du projet 05 Gestion des filaments impression 3D
 
 ## Maquette 3D Interactive du Support
 
-*Utilisez votre souris ou votre doigt pour faire pivoter (clic gauche), déplacer (clic droit) et zoomer sur le support.*
+*Utilisez votre souris pour faire pivoter (clic gauche), déplacer (clic droit) et zoomer sur le support.*
 
-<script src="https://embed.gvtc.com/js/stl_viewer.min.js"></script>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 
-<div id="stl_cont" style="width:100%; height:500px; border:1px solid #dee2e6; border-radius:6px; background:#ffffff;"></div>
-
-<script>
-    var stl_viewer = new StlViewer(
-        document.getElementById("stl_cont"),
-        { 
-            models: [ {id: 0, filename: "images/support_filaments.stl", color: "#E60000"} ],
-            zoom: 85
-        }
-    );
-</script>
+<model-viewer 
+  src="images/support_filaments.glb" 
+  camera-controls 
+  touch-action="pan-y" 
+  alt="Modèle 3D du support 14 bobines" 
+  style="width: 100%; height: 500px; background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 6px;">
+</model-viewer>
 
 ---
 
