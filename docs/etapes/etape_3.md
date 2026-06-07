@@ -42,4 +42,15 @@ Pour contourner la problématique réseau terrain et valider la totalité de not
 3. **La logique Automate & IHM :** Programmation des blocs de calcul (`GET`, `NORM_X`, `SCALE_X`), gestion des alarmes et design de l'IHM prêts sur TIA Portal V20.
 
 ### ⚠️ Le point de blocage (Les 15% restants) :
-Le projet est globalement **finalisé à 85%**. Notre seule et unique difficulté réside dans la **programmation et la configuration de la liaison Wi-Fi directe de l'automate pour le relier phys
+Le projet est globalement **finalisé à 85%**. Notre seule et unique difficulté réside dans la **programmation et la configuration de la liaison Wi-Fi directe de l'automate pour le relier physiquement aux imprimantes 3D (via l'ESP32)**. 
+
+Le code interne de l'automate est prêt, mais nous avons fait face à des restrictions de communication réseau et d'autorisation de protocole S7 à travers les points d'accès Wi-Fi de l'atelier, ce qui empêche la réception des données en temps réel sur le matériel physique.
+
+### ⏳ Perspectives :
+Le bug réseau ayant été précisément identifié et isolé, **il ne nous manque plus que cette configuration Wi-Fi pour finaliser le projet à 100%**. Toutes les autres briques technologiques se synchronisent déjà parfaitement. Avec seulement quelques heures de développement et de tests réseau supplémentaires avec les routeurs de l'atelier, la communication matérielle aurait été établie, rendant le système totalement déployable en production.
+
+---
+
+## 📹 Partie 4 : Livrables et Démo Vidéo
+
+Pour clore ce projet, nous avons réalisé une vidéo de démonstration . Elle retrace notre démarche d'ingénieurs : de la présentation de nos pièces sur Onshape à la démonstration des algorithmes Arduino et TIA Portal V20, en passant par la simulation logicielle des alertes de niveau directement sur l'écran de l'IHM.
