@@ -13,7 +13,7 @@ Cette dernière section détaille la phase de validation de notre système, la c
 
 ## 🖥️ Partie 1 : Interface Homme-Machine (IHM) sur TIA Portal V20
 
-L'aboutissement visuel de notre logique d'automatisation se situe sur l'écran de l'IHM, conçu pour les opérateurs de l'atelier de fabrication.
+L'aboutissement visuel de notre logique d'automatisation se situe sur l'écran de l'IHM, conçu pour les élèves et professeurs de la mini usine de l'école.
 
 ### Éléments graphiques et dynamiques intégrés :
 * **Jauges de niveau :** Traduction visuelle du pourcentage calculé par les blocs de mise à l'échelle `NORM_X` et `SCALE_X`. La jauge se vide dynamiquement selon la consommation théorique de filament.
