@@ -47,3 +47,26 @@ Une fois la donnée acquise par l'ESP32, l'enjeu était de la faire remonter à 
 ### 1. Configuration Réseau et Liaison S7 Connection
 Notre démarche a d'abord été purement réseau. Dans l'environnement de configuration des appareils de **TIA Portal V20**, nous avons configuré une liaison virtuelle de type **S7 Connection**. Pour cela, nous avons dû mapper précisément :
 * L'adresse IP fixe de notre automate principal.
+* * L'adresse IP de l'équipement partenaire distant (qui centralise les données des capteurs).
+* Le paramétrage des slots et racks logiques pour établir le pont de communication.
+
+Cette configuration a automatiquement généré un identifiant de liaison unique : **l'ID réseau 100 en hexadécimal (W#16#100)**. Cet ID sert de route officielle et sécurisée pour acheminer nos paquets de données à travers les points d'accès Wi-Fi de l'atelier.
+
+### 2. Programmation et Routage des Données (Bloc GET)
+Nous avons ensuite structuré la logique de programmation dans l'automate en intégrant le bloc système standard **GET** (SFB14) dans le diagramme de bloc (OB1) :
+* **Routage :** Nous avons appliqué l'ID de liaison `W#16#100` sur l'entrée `ID` du bloc.
+* **Pointeur ANY :** Sur le paramètre `ADDR_1`, nous avons configuré manuellement le pointeur ANY sur la syntaxe exacte : `P#DB1.DBX0.0 INT 1`. Cela donne l'ordre précis au bloc d'aller lire une longueur de 1 entier (`INT 1`) à l'adresse de départ du bit 0.0 du Bloc de Données numéro 1 (`DB1.DBX0.0`) de l'automate distant.
+* **Réception :** Le bloc rapatrie cette donnée brute et la stocke localement via la sortie `RD_1` dans une variable temporaire que nous avons nommée `#valeur_brute_wifi`.
+
+### 3. Traitement mathématique et Mise à l'Échelle (NORM_X et SCALE_X)
+Une fois la variable reçue, il s'agissait de transformer une simple valeur numérique brute (souvent comprise entre 0 et 27648 en standard Siemens, ou une valeur de distance brute en mm) en un pourcentage lisible par l'utilisateur (0% à 100%).
+
+Nous avons modifié le câblage logique existant : nous avons déconnecté l'ancienne entrée physique locale de l'automate pour injecter à la place notre nouvelle variable `#valeur_brute_wifi`.
+* **Bloc NORM_X (Normalisation) :** Il prend la valeur brute reçue par Wi-Fi et la convertit en une valeur décimale normalisée comprise strictement entre `0.0` et `1.0` (selon les bornes min/max que nous avons calibrées en fonction d'une bobine pleine et d'une bobine vide).
+* **Bloc SCALE_X (Mise à l'échelle) :** Il récupère cette valeur normalisée et la projette sur une plage de sortie configurée entre `0.0` et `100.0`. 
+
+Grâce à ce traitement, nous obtenons en temps réel un **pourcentage de filament fluide, linéaire et précis**, directement exploitable pour l'affichage dynamique sur les jauges de l'IHM.
+
+Lors de la mise en ligne, le bloc GET a immédiatement validé la cohérence de notre architecture en renvoyant le code d'état **STATUS 16#0001**, prouvant qu'une communication Wi-Fi industrielle est établie, stable et prête pour le déploiement.
+
+Une fois le code validé et les pièces imprimées, passez à la validation finale : [Étape 3 : Phase de Test et Réglages](/tests).
