@@ -60,4 +60,3 @@ Pour mener à bien ce projet, nous nous appuyons sur les ressources matérielles
 | **Interface de l'usine** | Affichage dynamique en % et alertes de maintenance sur l'IHM | **100% Validé** (Interface prête) |
 | **Réseaux Industriels** | Communication fluide et stable des données vers l'automate | **En cours (85%)** (Ajustement du signal brut) |
 
-> 📊 **Livrables pour la validation :** Le projet est actuellement développé à **85%**. La validation finale comprendra la réalisation technique au sein de l'armoire, une soutenance orale, la présente documentation web sur GitHub respectant la charte d'UniLaSalle (Rouge, Blanc, Noir), ainsi qu'une vidéo de démonstration d'environ 2 minutes.
