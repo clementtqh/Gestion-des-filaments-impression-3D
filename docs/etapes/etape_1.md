@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "1. Étape 1 :"
-parent: Etapes de fabrication
-nav_order: 1
+nav_order: 5
 ---
 
 # Étape 1 : Spécifications et Initialisation du Projet
