@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "2.Étape 2 : "
+title: "2. Étape 2 : "
 parent: Etapes de fabrication
 nav_order: 2
 ---
